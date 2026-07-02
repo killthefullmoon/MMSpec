@@ -55,6 +55,7 @@ Dataset splits are stored under [`dataset/MMSpec/`](./dataset/MMSpec):
 
 - `testmini`: quick sanity-check subset
 - `test`: full benchmark split
+- `caption_marker_test`: generated image annotations organized by MMSpec topic folders
 
 Each split contains `mmspec.jsonl` and an `images/` directory. A typical sample includes `id`, `image`, `turns`, `category`, and `topic`.
 
